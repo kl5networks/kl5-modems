@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kl5modems"
+version = "0.1.0"
+description = "Software modems for payphones: Bell 103, Bell 212A, Protel native 1200 and auto-detect, over Asterisk AudioSocket"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "White Clay Technologies LLC" }]
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["kl5modems"]
