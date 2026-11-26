@@ -1,5 +1,7 @@
 # kl5modems
 
+**By John Walker, for [KL5 Networks](https://kl5networks.com)** (White Clay Technologies LLC).
+
 Software modems for payphones that call home to a manager. Pure Python,
 standard library only, 8 kHz 16-bit audio in and out.
 
@@ -8,6 +10,21 @@ call their manager by modem. Put the phone on a VoIP line and there is no
 modem at the other end, only audio. These modules are that other end:
 audio from Asterisk in, the phone's bytes out to whatever manager program
 you run, and the manager's bytes back to the phone as audio.
+
+## Why KL5 exists
+
+KL5 is a hobby project, made for fun. Payphones like the Protel and the
+Nortel Millennium are great machines, and most of the ones that survive sit
+in garages collecting dust because the network they were built for is gone.
+KL5 is a way to get them working again: making calls, taking coins, calling
+in to a manager and being programmed, on an ordinary VoIP line.
+
+The hope is to bring more people in to set up and use their own phones, and
+to make that easy. A phone that calls in needs something to answer it, so
+the project grew a management console, and the console grew a fictional
+telephone company to run it: KL5 Networks, at
+[kl5networks.com](https://kl5networks.com). The company is make-believe.
+The phones, the call-ins and this code are real.
 
 ## What is here
 
